@@ -1,0 +1,37 @@
+10/19:
+    
+- Things should work correctly to the keys, terrains that are not supposed to be crossed are blocked off and sent a message.
+
+- Directed screens are placeholders as expected, for battle screens it can be escaped with KEY_ESC and for marts and center, '<'.
+
+- For '>' and '<' keys, I assume you do shift+. and shift+, , and (capitalized) Q for quiting
+
+- Scrolling in display of trainers should work, along with whether you have fought that trainer or not.
+
+- When attempting to cross a defeated trainer, you are sent a message. After defeated, their move type becomes sentry; so I am aware that if they stand on a narrow path after you defeat them, ....you are blocked. (but that is not required as far as I know, and this is for another day. :) )
+
+/-----------------------------------------------------------------------------------
+10/25:
+
+- File should be correctly converted to C++, with major structs like map and world and character applied, with inheritance.
+
+- Exiting, map scrolling and PC's location on new maps should work correctly.
+
+- Flying should work correctly. When prompted, please immediately type a number for x-coord, and press SPACE or ENTER to get y-coord. 
+    + When presented with alien keystrokes, the fly location will just simply be somewhere unintended, or back to (0,0).
+
+- The bug when you attempt to cross a defeated trainer is fixed - you can simply swap their location to pass. Of course, this does not work on unpassable terrains. However, the move cost is simply neglected, so hypothetically if you have a line of trainers on one line, you can cross the map with no move penalty (the stardew valley chair dillemma) but again, this is not required so is probably for another day ;)
+
+---------------------------------------------------------------
+11/3
+
+- everything should work as expected
+- i did not print the headers in the files because it is not required
+
+-----------------------------------------------------------------
+11/9
+
+- all the pokemons are printed on encountered, with their information on it.
+- the rate are 1/10 encouter rate, and 1/8192 for shiny rate.
+- leveling up should work as expected. moves are not changed from leveling like the og games because (1), its 4am, (2), its not required as far as i know so just in case it is required, i didnt know :((
+- everything else should work as expected
