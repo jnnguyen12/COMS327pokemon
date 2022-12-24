@@ -1,0 +1,86 @@
+09-07: generated terrain (except for the buggy pokemart and center)
+    - generatable trees, tall grass and boulders.
+    - workable paths.
+
+09-11: pokemart and center now works with a block of 4
+09-16: added map spawning
+09-26:
+    - made some minor changes to reduce memory load - reducing the amount of world pointers being passed around
+    - fixed bug for fly, and other minor related things 
+    - future: *actually* generate decreasing spawn rate for mart and center, and remebering old paths to connect them. 
+            (say when you move north 3 tiles, and fly to a tile right next to one of the old tiles, the horizontal paths 
+            will not match up. I didnt think about this before I turned the assignment in)
+
+09-28: generated maps for NPC's, details in README file. 
+
+10-03: created new struct type: chell, for character cells. 
+
+10-19:  
+    - Things should work correctly to the keys, terrains that are not supposed to becrossed are blocked off and sent a message.
+    - Directed screens are placeholders as expected, for battle screens it can be escaped with KEY_ESC and for marts and center, '<'.
+    
+    - For '>' and '<' keys, I assume you do shift+. and shift+, , and (capitalized) Q for quiting
+
+    - Scrolling in display of trainers should work, along with whether you have fought that trainer or not.
+
+    - When attempting to cross a defeated trainer, you are sent a message. After defeated, their move type becomes sentry; so I am aware that if they stand on a narrow path after you defeat them, ....you are blocked. (but that is not required as far as I know, and this is for another day. :) )
+
+10-25:
+
+    - File should be correctly converted to C++, with major structs like map and world and character applied, with inheritance.
+
+    - Exiting, map scrolling and PC's location on new maps should work correctly.
+
+    - Flying should work correctly. When prompted, please immediately type a number for x-coord, and press SPACE or ENTER to get y-coord. 
+        + When presented with alien keystrokes, the fly location will just simply be somewhere unintended, or back to (0,0).
+
+    - The bug when you attempt to cross a defeated trainer is fixed - you can simply swap their location to pass. Of course, this does not work on unpassable terrains. However, the move cost is simply neglected, so hypothetically if you have a line of trainers on one line, you can cross the map with no move penalty (the stardew valley chair dillemma) but again, this is not required so is probably for another day ;)
+
+11-3:
+
+    - everything should work as expected
+    - i did not print the headers in the files because it is not required
+
+11-9:
+
+    - all the pokemons are printed on encountered, with their information on it.
+    - the rate are 1/10 encouter rate, and 1/8192 for shiny rate.
+    - leveling up should work as expected. moves are not changed from leveling like the og games because (1), its 4am, (2), its not required as far as i know so just in case it is required, i didnt know :((
+    - everything else should work as expected
+
+11-28 (1.09):
+    - i simply gave up
+    - features that works:
+        + pc chooses a pkm from 3 pokemons, are equipped with some potions and revives and pokeballs.
+        + trainers are generated with pokemons
+        + when encountering pokemons, wild pokemon battle appears. but only fight and run is working.
+        + checking inventory (bag) works. (B) refilling health and reviving works.
+        + to check pokemon party, press p. you can also scroll, this was implemented to test pokemons for trainers. (this is extra but points for it would be awesome, consider it a trade off with 10.10 =( )
+        + level up with pokemon party. 
+            * to prevent mass levelling from jsut pressing L, health is not made to match max health.
+    - features that dont work:
+        + no trainer battles
+        + no buying stuff for inventories
+        + no switching pokemons or checking bag during battle.
+
+12-09 (1.10):
+    - fixed everything that was missing in 1.09 (i know this probably doesnt count)
+
+    - basically i did the UI for everything as this assignment. the UI should closely simulate the real pokemon game, featuring text boxes and updates to the screen.
+    - everything also runs smoothly now.
+
+    - trainer battles:
+        + npcs have a chance to switch out their pokemons.
+        + an indicator is added to show how many pokemons you have left to beat the opponent.
+        + when you beat the opponent, they drop level + rand() % 100 based on last fainted pokemon. 
+        + you lose money when you lose.
+
+    - you are automatically transferred to pokemon center when all your pokemons faint, where there is also UI implemented (somewhat)
+
+    - you now start with lv 3, 5 pokeballs, 5 revives and 1000 pokebucks. (I am Tired of dying upon spawning for 2 seconds)
+
+    - added pokebucks, UI for buying stuff at pokemart.
+
+    - the moves arent implemented to update on leveling up. if you get both moves to be 0, you have to start over :(
+
+    ty

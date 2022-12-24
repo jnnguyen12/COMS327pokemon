@@ -1,0 +1,38 @@
+Includes 
+    - poke327.cpp
+    - heap.c
+    - heap.h
+    - parser.h
+    - parser.cpp
+
+==========
+CONTROLS:
+==========
+- in screens that are not maps, you can NAVIGATE USING ARROW KEYS AND ENTER. to back or exit, use esc (or enter, sometimes its faster that way and i dont know why??).
+- to see pokemon's party, press p.
+- to open bag, press B.
+
+===========================
+FUNCTIONALITIES (for 1.10):
+===========================
+- fixed everything that was missing in 1.09 (i know this probably doesnt count)
+
+- basically i did the UI for everything as this assignment. the UI should closely simulate the real pokemon game, featuring text boxes and updates to the screen.
+- everything also runs smoothly now.
+
+- trainer battles:
+    + npcs have a chance to switch out their pokemons.
+    + an indicator is added to show how many pokemons you have left to beat the opponent.
+    + when you beat the opponent, they drop level + rand() % 100 based on last fainted pokemon. 
+    + you lose money when you lose.
+
+- you are automatically transferred to pokemon center when all your pokemons faint, where there is also UI implemented (somewhat)
+
+- you now start with lv 3, 5 pokeballs, 5 revives and 1000 pokebucks. (I am Tired of dying upon spawning for 2 seconds)
+
+- added pokebucks, UI for buying stuff at pokemart.
+
+- the moves arent implemented to update on leveling up. if you get both moves to be 0, you have to start over :(
+
+ty
+
