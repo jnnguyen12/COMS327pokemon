@@ -18,19 +18,20 @@
     - Upon fainting with no more pokemons left, you are transferred back to the nearest Pokemon center.
     
 * **Screenshots**
-<img width="674" alt="image" src="https://user-images.githubusercontent.com/105896253/209419691-02b9b27b-4e9d-452d-bcd2-3805626179b5.png">
-<img width="651" alt="image" src="https://user-images.githubusercontent.com/105896253/209420050-16c17a03-9d75-4a1f-b074-057c2e775a9f.png">
-<img width="659" alt="image" src="https://user-images.githubusercontent.com/105896253/209419703-0152b4ec-cfa5-4058-8198-b5dc04df49c6.png">
-<img width="668" alt="image" src="https://user-images.githubusercontent.com/105896253/209419739-d0abb932-ff41-4c31-ad51-494d6543f02e.png">
-<img width="668" alt="image" src="https://user-images.githubusercontent.com/105896253/209419748-58ca3b42-c6c9-477d-b28b-fc3c3ffaadf1.png">
-<img width="667" alt="image" src="https://user-images.githubusercontent.com/105896253/209419761-ad068979-caef-4965-b868-2b499c6da812.png">
-<img width="658" alt="image" src="https://user-images.githubusercontent.com/105896253/209419778-153f6ae9-c467-48c9-9278-2973c038a079.png">
-<img width="659" alt="image" src="https://user-images.githubusercontent.com/105896253/209419784-22d21e5e-b0f1-4612-a258-746bf4126a15.png">
-<img width="660" alt="image" src="https://user-images.githubusercontent.com/105896253/209419792-1d6fb8a1-e2cb-49db-94da-4f8177bd41a9.png">
-<img width="656" alt="image" src="https://user-images.githubusercontent.com/105896253/209419850-0fe37e19-b868-4f28-9d61-769df40f8983.png">
-<img width="655" alt="image" src="https://user-images.githubusercontent.com/105896253/209419858-19628ce9-fdea-49d5-acda-91999d23a6d8.png">
-<img width="659" alt="image" src="https://user-images.githubusercontent.com/105896253/209419881-f7cd03dc-c8b6-49d8-ae34-cac6cd05a6bc.png">
-<img width="652" alt="image" src="https://user-images.githubusercontent.com/105896253/209419889-f5d00cc2-32a4-4bb6-b9dd-9f7b798121d9.png">
-<img width="654" alt="image" src="https://user-images.githubusercontent.com/105896253/209419912-e733e290-896b-4fd7-bb9d-c0d68642d308.png">
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/105896253/209419918-44ac37c9-f7e9-4085-b8b3-3c36860aca69.png">
+
+![map](https://user-images.githubusercontent.com/105896253/213886833-9eb9c085-e7f0-4346-a24f-4f97e89370a5.png)
+![wild battle](https://user-images.githubusercontent.com/105896253/213886861-1d68bd2b-6847-48c7-85e9-1bfb2dd0c317.png)
+![wild move](https://user-images.githubusercontent.com/105896253/213886879-08da0bb2-2589-4652-8289-0e133fb232a7.png)
+![explorer battle](https://user-images.githubusercontent.com/105896253/213886891-7bb33fbf-4d73-4e25-aa69-f1cee9c7dfa0.png)
+![pokemart](https://user-images.githubusercontent.com/105896253/213886922-9cb2eee2-c158-4b5f-8077-dfb5661f2e0b.png)
+![pokecenter](https://user-images.githubusercontent.com/105896253/213886953-62187828-7c8b-4504-b8c0-66882befc582.png)
+![trainer list](https://user-images.githubusercontent.com/105896253/213886969-045784d2-82fb-4a39-b1ae-f5dc44ed0018.png)
+![bag](https://user-images.githubusercontent.com/105896253/213886990-fd1642ad-8679-4658-8878-b048b3226998.png)
+![pokemon list](https://user-images.githubusercontent.com/105896253/213887003-eb4b828a-93d4-4969-b4be-556a35054eda.png)
+
+* **Videos**
+https://user-images.githubusercontent.com/105896253/213886798-c8b7ddb6-f7cc-440a-9f6c-5f29053dcff8.mp4
+https://user-images.githubusercontent.com/105896253/213886805-ef4e9698-4c1f-4c3c-b08b-c1e479f68d0c.mp4
+
+
 
